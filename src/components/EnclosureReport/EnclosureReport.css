@@ -1,0 +1,45 @@
+/* EnclosureReport.css */
+
+.enclosure-report-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.enclosure-report-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.enclosure-report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.enclosure-type-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.enclosure-type-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.generate-report-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-report-button:hover {
+  background-color: #0056b3;
+}

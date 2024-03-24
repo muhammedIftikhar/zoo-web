@@ -1,0 +1,51 @@
+.security-report-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.security-report-title {
+  margin-bottom: 20px;
+}
+
+.security-report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.security-form-group {
+  margin-bottom: 15px;
+}
+
+.security-label {
+  margin-bottom: 5px;
+}
+
+.security-input,
+.security-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.security-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.security-button:hover {
+  background-color: #0056b3;
+}
+
+.security-error-message {
+  color: red;
+  margin-top: 10px;
+}

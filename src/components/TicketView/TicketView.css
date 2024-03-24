@@ -1,0 +1,22 @@
+/* TicketView.css */
+.ticket-view-page {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.ticket-view-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ticket-info {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-info p {
+  margin: 5px 0;
+}

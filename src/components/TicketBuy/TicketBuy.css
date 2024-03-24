@@ -1,0 +1,56 @@
+/* TicketBuy.css */
+.ticket-buy-container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-buy-container h2 {
+  text-align: center;
+}
+
+.ticket-buy-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-buy-container label {
+  margin-bottom: 5px;
+}
+
+.ticket-buy-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ticket-buy-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-buy-container span {
+  font-size: 12px;
+}
+
+.ticket-buy-container button {
+  padding: 10px;
+  background-color: #FFA500;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ticket-buy-container button:hover {
+  background-color: #FF8C00;
+}
+
+
+
+
